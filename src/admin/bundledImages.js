@@ -1,0 +1,26 @@
+/* Photos shipped with the website (SweetieBatter_Web/public/assets/products),
+   loaded from SITE_URL. New photos are uploaded to Supabase Storage; this
+   list only lets you re-use the originals from the gallery. */
+export const BUNDLED_IMAGES = [
+  'cake-choco-chiffon.jpg',
+  'cake-marble.jpg',
+  'cake-pandan.jpg',
+  'choux-assorted.jpg',
+  'choux-biscoff.jpg',
+  'choux-black-sesame.jpg',
+  'choux-cheesy-caramel.jpg',
+  'choux-chocoberry.jpg',
+  'choux-chocolate.jpg',
+  'choux-cookies-cream.jpg',
+  'choux-ichigo-matcha.jpg',
+  'choux-matcha.jpg',
+  'choux-pistachio.jpg',
+  'choux-tiramisu.jpg',
+  'choux-vanilla.jpg',
+  'coming-soon.png',
+  'cookies-snowball.jpg',
+  'floss-original.jpg',
+  'marble-cake.jpg',
+  'roll-blueberry.jpg',
+  'roll-chicken-floss.jpg',
+].map((name) => `assets/products/${name}`);
